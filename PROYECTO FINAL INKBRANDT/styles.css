@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form select, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#listaTatuadores div, #listaEstudios div {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+}
+
+#listaTatuadores img, #listaEstudios img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.galeria-tatuajes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.galeria-tatuajes img {
+    width: 100px;
+    height: 100px;
+}
+
+.calificacion {
+    margin-top: 10px;
+}
+
+.calificacion button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.calificacion button:hover {
+    background-color: #e6b800;
+}
